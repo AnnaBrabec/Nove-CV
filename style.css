@@ -78,15 +78,15 @@ h2 {
     justify-content: center;
 }
 .navbar a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    padding: 3px;
+    border-radius: 7px;
 }
-a:hover {
+.navbar a:hover {
     color: #0C4A60;
     background-color:#bf5628;
-}
-a:active {
-    color: #E1DDDB;
 }
 .box {
     background-color: #0C4A60;
