@@ -1,0 +1,143 @@
+/*Barvy: boxes: #0C4A60
+         highlight, navbar: #EF6C33
+         background: #ABDFF1
+         text: #E1DDDB
+         hover: #bf5628
+*/
+/*screen 320px - 479px*/
+body {
+    background-color: #ABDFF1;
+}
+.medailonek {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #0C4A60;
+    border-radius: 10px 10px 0 0;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #0C4A60;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -75px;
+    left: 50%;
+    transform: translate(-50%);left: 50%;
+    border: 3px solid #EF6C33;
+}
+h1 {
+    color: #E1DDDB;
+    margin: auto;
+    margin-top: 135px;
+    margin-bottom: 20px;
+}
+.highlight {
+    font-family: 'Tourney', cursive;
+    font-size: 36px;
+    color: #EF6C33;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+h2 {
+    margin: 20px auto;
+    color: #E1DDDB;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    background-color: #EF6C33;
+    width: 30px;
+    height: 200px;
+    left: 85%;
+    top: 50px;
+    border-radius: 15px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #0C4A60;
+    background-color:#bf5628;
+}
+a:active {
+    color: #E1DDDB;
+}
+.box {
+    background-color: #0C4A60;
+    width: 85%;
+    margin: auto;
+}
+.last {
+    border-radius: 0 0 10px 10px;
+}
+.box h2 {
+    padding: 20px;
+}
+p {
+    color: #E1DDDB;
+}
+footer {
+    margin-left: 15%;
+}
+
+/*tablet
+.medailonek {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #0C4A60;
+    border-radius: 10px;
+}
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: #0C4A60;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -125px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 3px solid #EF6C33;
+}
+*/
