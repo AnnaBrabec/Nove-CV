@@ -68,8 +68,9 @@ h2 {
     background-color: #EF6C33;
     width: 30px;
     height: 200px;
-    left: 85%;
+    right: 0;
     top: 50px;
+    border: solid 3px #0C4A60;
     border-radius: 15px;
     list-style-type: none;
     text-align: center;
